@@ -1,0 +1,172 @@
+.top_image {
+    height: 2em;
+    width: 2em;
+}
+@media (min-width: 768.1px) {
+    .top-text {
+      font-size: 20px;
+    }
+    #vis-text2{
+        font-size: large;
+    }
+  }
+  /* If the screen size is smaller than 1200px, set the font-size to 80px */
+  @media (max-width: 768px) {
+    .top-text {
+      font-size: 12px;
+    }
+    #vis-text2{
+        font-size: x-small;
+        line-height: 1;
+    }
+    #vis-text2 p {
+        margin: 0;
+    }
+    
+  }
+
+.coffelogo img {
+    width: 20%;
+}
+
+.navbar-nav a {
+    border-bottom: 3px solid transparent;
+}
+
+.navbar-nav a:hover {
+    border-bottom: 3px solid rgb(97, 95, 95);
+}
+
+.navbar-nav a.active {
+    border-bottom: 3px solid rgb(97, 95, 95);
+}
+
+#first_text {
+    background-color: rgb(199, 190, 190);
+    align-items: center;
+    margin-left: 0;
+}
+
+.container img {
+    width: 100%;
+    margin-right: 0;
+}
+
+.image {
+    background-color: brown;
+}
+
+#second_text {
+    background-color: rgb(226, 217, 217);
+    align-items: start;
+}
+
+#head {
+    color: rgb(143, 110, 110);
+}
+
+#thired_text {
+    background-color: rgb(255, 255, 255);
+    align-items: flex-start;
+}
+
+#footer {
+    background-color: rgb(226, 217, 217);
+    text-align: center;
+}
+#footer-button{
+    background-color: rgb(226, 217, 217);
+    border-style:none ;
+    font-weight: bold;
+}
+#footer-button:hover{
+    color: rgb(143, 110, 110);
+   
+}
+
+#meg-logo {
+    right: 1em;
+    bottom: 3em;
+    padding: 1.5em;
+    border-radius: 5em;
+    display: inline-block;
+    position: fixed;
+    z-index: 5;
+    background-color: rgb(226, 217, 217);
+}
+
+#vis-image1 img {
+    object-fit: none;
+    object-position: center;
+    width: 100%;
+    max-height: 20em;
+    margin-bottom: 1rem;
+}
+
+#vis-image1,#vis-image2 {
+    position: relative;
+}
+
+
+#visit1-text {
+    position: absolute;
+    height: 95%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(97, 94, 94, 0.4);
+    color: white;
+}
+
+#vis-image2 img {
+    object-fit: none;
+    object-position: center;
+    width: 100%;
+    max-height: 55em;
+    margin-bottom: 1rem;
+}
+
+#vis-text2  {
+    position: absolute;
+    height: 80%;
+    width: 60%;
+    top: 10%;
+    left: 18%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 237, 237);
+    color: rgb(0, 0, 0);
+}
+
+#map iframe {
+    object-fit: none;
+    object-position: center;
+    width: 100%;
+    max-height: 25em;
+    margin-bottom: 1rem;
+}
+
+#vedio iframe {
+    width: 100%;
+    height: 38em;
+}
+
+#social svg {
+    margin: 2em;
+}
+
+#about-row {
+    justify-content: center;
+    text-align: center;
+
+}
+
+#about-col {
+    padding: 2em;
+    margin-bottom: 2em;
+    height: 100%;
+
+    background-color: rgb(226, 217, 217);
+}
